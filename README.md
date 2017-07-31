@@ -2,7 +2,11 @@
 
 **Live XAML** development for Xamarin Forms Apps using Gtk Backend.
 
-[](images/live_xaml_gtk_linux.gif)
+<p align="center">
+<img src="images/livexamlgtklinux.gif" />
+</p>
+
+***NOTE**: Work in progress!*
 
 ## Setup
 
@@ -11,6 +15,10 @@ Clone this repository. Open the solution in **FormsGtkLive.sln** with Visual Stu
 ## Usage
 
 To live develop XAML you open the **FormsGtkLive.exe** tool. Any XAML file included in the same folder as the  tool will be previewed.
+
+The tool can also detect XAML markup **errors**.
+
+![](images/errors.png)
 
 ## Feedback 
 
