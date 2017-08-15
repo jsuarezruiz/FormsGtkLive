@@ -14,7 +14,7 @@ Clone this repository. Open the solution in **FormsGtkLive.sln** with Visual Stu
 
 ## Usage
 
-To live develop XAML you open the **FormsGtkLive.exe** tool. Any XAML file included in the same folder as the  tool will be previewed.
+To live develop XAML you open the **FormsGtkLive** tool. Any XAML file included in the same folder as the  tool will be previewed.
 
 The tool can also detect XAML markup **errors**.
 
