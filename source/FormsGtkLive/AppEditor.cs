@@ -3,11 +3,11 @@ using Xamarin.Forms;
 
 namespace FormsGtkLive
 {
-    public class App : Application
+    public class AppEditor : Application
     {
-        public App()
+        public AppEditor()
         {
-            MainPage = new LiveView();
+            MainPage = new EditorView();
         }
     }
 }
