@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace FormsGtkLive.ViewModels
@@ -29,6 +30,10 @@ namespace FormsGtkLive.ViewModels
             }
         }
 
+        public ICommand SaveCommand => new Command(Save);
+
+        public ICommand ReloadCommand => new Command(Reload);
+
         private async void PreviewXaml(string xaml)
         {
             var contentPage = new ContentPage();
@@ -51,6 +56,16 @@ namespace FormsGtkLive.ViewModels
             }
 
             Preview = contentPage.Content;
+        }
+
+        private void Save()
+        {
+
+        }
+
+        private void Reload()
+        {
+            PreviewXaml(LiveXaml);
         }
     }
 }

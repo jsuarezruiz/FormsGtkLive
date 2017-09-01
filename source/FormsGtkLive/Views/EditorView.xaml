@@ -1,7 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FormsGtkLive.Views.EditorView">
+             x:Class="FormsGtkLive.Views.EditorView"
+             Title="Live XAML Editor">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Icon="Images/save.png"
+            Text="Save"
+            Command="{Binding SaveCommand}"/>
+        <ToolbarItem
+            Icon="Images/reload.png"
+            Text="Reload"
+            Command="{Binding ReloadCommand}"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <Grid>
             <Grid.ColumnDefinitions>
