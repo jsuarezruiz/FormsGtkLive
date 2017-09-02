@@ -5,10 +5,6 @@
              Title="Live XAML Editor">
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            Icon="Images/save.png"
-            Text="Save"
-            Command="{Binding SaveCommand}"/>
-        <ToolbarItem
             Icon="Images/reload.png"
             Text="Reload"
             Command="{Binding ReloadCommand}"/>

@@ -30,8 +30,6 @@ namespace FormsGtkLive.ViewModels
             }
         }
 
-        public ICommand SaveCommand => new Command(Save);
-
         public ICommand ReloadCommand => new Command(Reload);
 
         private async void PreviewXaml(string xaml)
@@ -43,7 +41,7 @@ namespace FormsGtkLive.ViewModels
                 if (string.IsNullOrEmpty(xaml))
                     return;
 
-                string contentPageXaml = $"<?xml version='1.0' encoding='utf-8' ?><ContentPage xmlns='http://xamarin.com/schemas/2014/forms' xmlns:x='http://schemas.microsoft.com/winfx/2009/xaml' x:Class ='LiveXaml.XamlPage'>{xaml}</ContentPage>";
+                string contentPageXaml = $"<?xml version='1.0' encoding='utf-8' ?><ContentPage xmlns='http://xamarin.com/schemas/2014/forms' xmlns:x='http://schemas.microsoft.com/winfx/2009/xaml' x:Class ='FormsGtkLive.XamlPage'>{xaml}</ContentPage>";
 
                 await Live.UpdatePageFromXamlAsync(contentPage, contentPageXaml);
             }
@@ -56,11 +54,6 @@ namespace FormsGtkLive.ViewModels
             }
 
             Preview = contentPage.Content;
-        }
-
-        private void Save()
-        {
-
         }
 
         private void Reload()
