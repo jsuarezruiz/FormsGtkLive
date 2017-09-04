@@ -2,9 +2,7 @@
 
 **Live XAML** development for Xamarin Forms Apps using Gtk Backend.
 
-<p align="center">
-<img src="images/livexamlgtklinux.gif" />
-</p>
+<img src="images/live-layout-linux.gif" alt="Livel XAML Edit" Width="400" /> <img src="images/live-layout-error-linux.gif" alt="Errors" Width="400" />  <img src="images/update-layout-linux.gif" alt="Livel XAML Edit" Width="400" /> 
 
 ***NOTE**: Work in progress!*
 

@@ -16,6 +16,7 @@ namespace FormsGtkLive.GTK
             var window = new FormsWindow();
             window.LoadApplication(app);
             window.SetApplicationTitle("Live XAML Editor");
+            window.SetApplicationIcon("Images/xaml.png");
             window.Show();
             Gtk.Application.Run();
         }
