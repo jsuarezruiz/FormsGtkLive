@@ -4,7 +4,7 @@
 
 <img src="images/live-layout-linux.gif" alt="Livel XAML Edit" Width="400" /> <img src="images/live-layout-error-linux.gif" alt="Errors" Width="400" />  <img src="images/update-layout-linux.gif" alt="Livel XAML Edit" Width="400" /> 
 
-***NOTE**: Work in progress!*
+***NOTE**: Work in progress!. You can find an Visual Studio for macOS add-in based on this project [here](https://github.com/jsuarezruiz/xamarin-forms-visual-studio-addin).*
 
 ## Setup
 
